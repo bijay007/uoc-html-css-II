@@ -1,0 +1,29 @@
+.intro__content {
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    .intro__description {
+        padding: 1rem;
+    }
+}
+.intro__profile-img {
+    display: flex;
+    flex-direction: column;
+    .intro__profile-caption {
+        align-self: center;
+        margin-bottom: 5px;
+        font: bold 1.2em Arial, sans-serif;
+    }
+    img {
+        max-width: 16rem;
+        max-height: 16rem;
+        border-radius: 50%;
+    }
+}
+
+/** Media queries*/
+@media (max-width: 640px) {
+    .intro__content {
+        flex-direction: column;
+    }
+}

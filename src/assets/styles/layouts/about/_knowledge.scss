@@ -1,0 +1,25 @@
+.knowledge__item {
+    display: flex;
+    justify-content: space-evenly;
+    img {
+        width: 25px;
+        height: 25px;
+        margin-right: 0.5rem;
+    }
+}
+.knowledge__item--university {
+    margin-bottom: 8px;
+}
+.knowledge__item--adobe {
+    display: flex;
+    align-items: center;
+    margin-bottom: 4px;
+}
+
+/** Media queries*/
+@media (max-width: 640px) {
+    .knowledge__item {
+        flex-direction: column;
+        align-items: center;
+    }
+}
